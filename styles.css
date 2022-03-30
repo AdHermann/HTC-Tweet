@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --background: #e5e5e5;
+  --text: #0f1419;
+  --border: #dadddf;
+  --icons-text: #536471;
+}
+
+.container.tweet{
+    width: 591px;
+    height: 161px;
+
+    display: flex;
+
+    border: 1px solid;
+}
