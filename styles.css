@@ -14,11 +14,29 @@
   --icons-text: #536471;
 }
 
-.container.tweet{
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh
+
+
+}
+
+.container-tweet{
     width: 591px;
     height: 161px;
 
     display: flex;
 
-    border: 1px solid;
+    border: 1px solid var(--border);
+}
+
+.dot{
+  width: 3px;
+  height: 3px;
+  background: var(--icons-text);
+  display: inline-block;
+  border-radius: 50%;
 }
