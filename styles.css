@@ -56,8 +56,9 @@ body {
   margin-right: 6px;
 }
 
-.nike-name .date {
+.nike-name, .date {
   font-weight: 400;
+  font-size: 15px;
 }
 
 .dot {
