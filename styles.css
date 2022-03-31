@@ -14,48 +14,89 @@
   --icons-text: #536471;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  height: 100vh
 
-
+  height: 100vh;
 }
 
-.container-tweet{
-    width: 591px;
-    height: 161px;
+.container-tweet {
+  width: 591px;
+  height: 161px;
 
-    display: flex;
+  display: flex;
 
-    padding: 17px 0 19px 17px ;
+  padding: 17px 0 19px 17px;
 
-    border: 1px solid var(--border);
+  border: 1px solid var(--border);
+}
+.image {
+  margin-right: 12px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 5px;
+  color: var(--icons-text);
 }
 
-.dot{
+.nike-title {
+  font-size: 15px;
+  font-weight: 700 bold;
+  margin-right: 3px;
+  color: var(--text);
+}
+
+.verified-box {
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+}
+
+.nike-name .date {
+  font-weight: 400;
+}
+
+.dot {
   width: 3px;
   height: 3px;
   background: var(--icons-text);
-  display: inline-block;
   border-radius: 50%;
+  display: inline-block;
 }
 
 .tweet-text {
   display: flex;
   font-size: 15px;
-  background-color: red;
+
+  margin-bottom: 38px;
+  margin-right: 84px;
+  color: var(--text);
 }
 
-.margin{
-  margin-top: 30px;
-  background-color: green;
-}
-
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-around;
+  color: var(--icons-text);
+  margin-top: 15px;
+}
+
+.comments-text {
+  margin-left: 17px;
+}
+
+.shares-text{
+  margin-left: 18px;
+}
+
+.likes-text{
+  margin-left: 21px;
+}
+
+.share-icon {
+  margin-right: 98px;
 }
