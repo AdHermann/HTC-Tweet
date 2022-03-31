@@ -56,7 +56,8 @@ body {
   margin-right: 6px;
 }
 
-.nike-name, .date {
+.nike-name,
+.date {
   font-weight: 400;
   font-size: 15px;
 }
@@ -67,11 +68,14 @@ body {
   background: var(--icons-text);
   border-radius: 50%;
   display: inline-block;
+  margin: 7px 5px 0 4px;
 }
 
 .tweet-text {
   display: flex;
   font-size: 15px;
+  line-height: 17.58px;
+
 
   margin-bottom: 38px;
   margin-right: 84px;
@@ -81,23 +85,27 @@ body {
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   color: var(--icons-text);
   margin-top: 15px;
+  margin-right: 98px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.box {
+  line-height: 15px;
+  font-size: 13px;
 }
 
 .comments-text {
   margin-left: 17px;
 }
 
-.shares-text{
+.shares-text {
   margin-left: 18px;
 }
 
-.likes-text{
+.likes-text {
   margin-left: 21px;
-}
-
-.share-icon {
-  margin-right: 98px;
 }
