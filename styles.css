@@ -30,6 +30,8 @@ body{
 
     display: flex;
 
+    padding: 17px 0 19px 17px ;
+
     border: 1px solid var(--border);
 }
 
@@ -39,4 +41,21 @@ body{
   background: var(--icons-text);
   display: inline-block;
   border-radius: 50%;
+}
+
+.tweet-text {
+  display: flex;
+  font-size: 15px;
+  background-color: red;
+}
+
+.margin{
+  margin-top: 30px;
+  background-color: green;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  
 }
