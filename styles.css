@@ -100,7 +100,6 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .box img {
@@ -118,12 +117,39 @@ header h1 {
   color: var(--icons-text);
 }
 
-
-
-
 @media (max-width: 1024px) {
   .container-tweet {
     padding: 10px;
+  }
+
+  .box img {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container-tweet {
+    padding: 10px 57px 10px 10px;
+  }
+
+  .box img {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container-tweet {
+    padding: 10px 27px 10px 10px;
+  }
+
+  .box img {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-tweet {
+    padding: 3px 9px 3px 3px;
   }
 
   .box img {
